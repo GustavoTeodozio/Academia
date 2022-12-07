@@ -1,2 +1,2 @@
-# Academia
+
 Site para academia
