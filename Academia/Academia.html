@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Academia</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,34 +17,23 @@
 
 </head>
 <body>
-    <style>
-		img {
-			height: 10%;
-		    opacity: 0.4;
-			width: 100%;
-			
-		}
-	  
-
-	</style>
-	
+   
 	<header>
-		<!--ICONE-->
 		<a href="#" class="logo"><i class="fa-solid fa-person-running"></i><span>Bioritmo</span></a>
-		<!--FIM ICONE-->
-
 		<!--INICIO NAV-->
-		<ul class="navbar">
+		<ul class="navbar" id="navbar">
 			<li><a href="#" class="active">Home</a></li>
 			<li><a href="#">Sobre nós</a></li>
 			<li><a href="#">Serviços</a></li>
 			<li><a href="#">Mensalidade</a></li>
 			<li><a href="#">Contato</a></li>
 		</ul>
+
+
 		<div class="main">
 			<a href="#" class="user"><i class="ri-user-fill"></i>Login</a>
 			<a href="#">Registro</a>
-			<div class="bx bx-menu" id="menu-icon"></div>
+			<div id="menu-icon"  class="bx bx-menu"></div>
 			
 		</div>
 		<!--FIM NAV-->
